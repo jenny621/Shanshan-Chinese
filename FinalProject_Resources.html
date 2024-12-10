@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en"  data-bs-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <title>Resources - Shanshan Chinese</title>
+    <link rel="icon" href="images/tsunami_white-circle-background.svg" /> <!-- color of "--bs-primary-bg-subtle" in dark mode: #031633-->
+
+    <style>
+        html {
+            font-size: calc(16px + 0.390625vw);
+        }
+
+        body {
+            font-family: Georgia, serif;
+        }
+
+        .bi-tsunami {
+            font-size: 2rem;
+        }
+
+        .mainImage {
+            width: 100%;
+            height: auto;
+            padding: 0px;
+        }
+
+        .photoCredit {
+            font-size: .6rem;
+        }
+
+        .callout {
+            font-style: italic;
+            padding: 1%;
+            margin: 3%;
+            margin-bottom: 4%;
+            border: 1px solid #eee;
+            border-left-width: 10px;
+            border-radius: 3px;
+            border-color: #0dcaf0;
+        }
+
+        .callout p:last-child {
+            margin-bottom: .5%;
+        }
+
+        .contentBody {
+            text-align: justify;
+        }
+
+        .beginnerIcon {
+            color: #0d6efd;
+        }
+
+        .intermediateIcon {
+            color: #ffc107;
+        }
+
+        .advancedIcon {
+            color: #198754;
+        }
+
+        footer, .card {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .lead {
+            font-size: .9rem;
+        }
+
+        .emailLink {
+            text-decoration: underline;
+        }
+
+        /* Large Screens (i.e., desktop) */
+        @media (max-width: 1199.98px) {
+            .callout {
+                margin-bottom: 5%;
+            }
+        }
+
+        /* Medium Screens (i.e., tablet) */
+        @media (max-width: 991.98px) {
+            .callout {
+                margin-bottom: 6%;
+            }
+        }
+
+        /* Small Screens (i.e., mobile) */
+        @media (max-width: 767.98px) {
+            .callout {
+                margin-bottom: 7%;
+            }
+        }
+
+        .highlight {
+            color: black;
+            background-color: yellow;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shanshan Chinese</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="FinalProject_Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="FinalProject_Resources.html" aria-current="page">Home</a></li>
+                            <li><a class="dropdown-item" href="#">Beginner</a></li>
+                            <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                            <li><a class="dropdown-item" href="#">Advanced</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FinalProject_VR.html">My VR Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://calendly.com/yw123/one-on-one-tutoring">Tutoring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FinalProject_Bio.html">Bio</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="justify-content-end d-none d-xl-flex" role="search">
+                <input id="searchInput" class="form-control me-2" type="text" placeholder="Search current page" aria-label="Search" />
+                <button class="btn btn-outline-light" type="button" onclick="search()">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!-- Header & Main Image -->
+        <div class="row py-5">
+            <span class="mainTitle display-1 text-center">Resources for Learning Mandarin Chinese</span>
+        </div>
+        <div class="row">
+            <img class="mainImage" src="images/terracotta-army-modified.jpg" alt="Photo of China's Terracotta Warriors" />
+            <p class="text-center py-2 photoCredit">
+                Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@onevibe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Greenwood</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/photos/brown-stone-statues-on-brown-rock-formation-during-daytime-NEAZIxSobB8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+        </div>
+
+        <!-- Callout -->
+        <div class="row callout">
+            <div class="col-sm-12">
+                <p class="contentBody">
+                    The resources listed on this page are from external sites that I am not affliated with. If you find any dead links or want to suggest resources not currently listed here, please contact me at <span class="emailLink">jenny621880@gmail.com</span>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row text-center px-4 row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 beginnerCard">
+                    <svg class="bi bi-tsunami card-img-top mt-3 beginnerIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">[Beginner] MITx: Chinese Language in Culture: Levels 1-3</h6>
+                        <p class="card-text">This course series on edX assumes no prior experience with Chinese and focuses on getting the foundamentals like tones and behavioral culture right from the get go.</p>
+                        <a class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/language/massachusetts-institute-of-technology-chinese-language-in-culture-level-1?index=product&queryID=4282364ae1d7a9eb1c0b789d02d85f06&position=1&results_level=first-level-results&term=Chinese+Language+in+Culture&objectID=course-078371aa-510e-4366-9547-04d9868a1e97&campaign=Chinese+Language+in+Culture%3A+Level+1&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 intermediateCard">
+                    <svg class="bi bi-tsunami card-img-top mt-3 intermediateIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">[Intermediate] Happy Chinese</h6>
+                        <p class="card-text">Happy Chinese is an educational TV show produced by CCTV for intermediate to advanced Chinese language learners in 2009. The show provides a highly entertaining way to learn daily life Chinese.</p>
+                        <a class="btn btn-outline-warning" target="_blank" rel="noopener noreferrer" href="https://happychinesetv.wordpress.com/episodes/">Learn More</a>
+                        <!--Baidu page: https://baike.baidu.com/item/%E5%BF%AB%E6%A8%82%E6%BC%A2%E8%AA%9E/9546330-->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 advancedCard">
+                    <svg class="bi bi-tsunami card-img-top mt-3 advancedIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">[Advanced] Spring Grass (Chun Cao)</h6>
+                        <p class="card-text">Originally a novel by Qiu Shanshan, Spring Grass was adapted for a TV show in 2008. "Perform Chun Cao: A Multimedia Advanced Chinese Course" is a textbook designed around the novel and show that can be used to develop oral and written narrative skills. </p>
+                        <a class="btn btn-outline-success" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL4P1OCiJ7Wk_RRy9iDsl7_ZnkWJww3g1H">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 beginnerCard">
+                    <svg class="bi bi-tsunami card-img-top mt-3 beginnerIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">[Beginner] Elementary Mandarin Chinese Textbook and Workbook</h6>
+                        <p class="card-text">Written by Professor Cornelius C. Kubler, this textbook is packed with useful daily conversations, as well as detailed and insightful explanation on both the Chinese language and the Chinese culture. <i>Continuing Mandarin Chinese</i> is the next book in the series that brings you to the intermediate level of the language.</p>
+                        <a class="btn btn-outline-primary btn-sm mb-1" target="_blank" rel="noopener noreferrer" href="https://www.tuttlepublishing.com/china/elementary-mandarin-chinese-textbook">Learn More</a>
+                        <a class="btn btn-outline-primary btn-sm mb-1" target="_blank" rel="noopener noreferrer" href="https://www.tuttlepublishing.com/elementary-mandarin-chinese-textbook">Textbook Audio/Video</a>
+                        <a class="btn btn-outline-primary btn-sm mb-1" target="_blank" rel="noopener noreferrer" href="https://www.tuttlepublishing.com/elementary-mandarin-chinese-workbook">Workbook Audio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row bg-primary-subtle text-center mt-5">
+            <div class="col-sm-12">
+                <footer class="py-3">
+                    <p class="lead">&copy; Shanshan Chinese. All rights reserved.</p>
+                    <p class="lead pb-2">Suggest resources? Contact me at <span class="emailLink">jenny621880@gmail.com</span></p>
+
+                    <!-- Subsection Navigation Bar -->
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <button type="button" class="btn btn-outline-primary btn-sm me-2">Beginner</button>
+                            <button type="button" class="btn btn-outline-warning btn-sm me-2">Intermediate</button>
+                            <button type="button" class="btn btn-outline-success btn-sm">Advanced</button>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function search() {
+            const spans = document.querySelectorAll('span');
+            const texts = document.querySelectorAll('p, span, a, h1, h2, h3, h4, h5, h6');
+
+            for (let i = 0; i < spans.length; i++) {
+                if (spans[i].classList.contains('highlight'))
+                    spans[i].classList.remove('highlight')
+            }
+
+            let searchInput = document.getElementById('searchInput');
+            let searchInputText = searchInput.value.trim(); // Note that "searchInput.textContent" doesn't work
+
+            if (searchInputText) {
+                searchInputText = searchInputText.toLowerCase();
+
+                const searchWords = searchInputText.split(' ');
+                let inputTotalLength = 0;
+                searchWords.forEach((element) => inputTotalLength += element.length);
+
+                for (let i = 0; i < texts.length; i++) {
+                    if (texts[i].textContent.toLowerCase().includes(searchInputText)) {
+                        const lowerCaseHTML = texts[i].innerHTML.toLowerCase();
+                        const startIndex = lowerCaseHTML.indexOf(searchWords[0]);
+                        let endIndex = startIndex + searchWords[0].length;
+                        let totalLength = searchWords[0].length;
+                        let done = false;
+
+                        for (let j = 1; j < searchWords.length && !done; ++j) {
+                            const originalEndIndex = endIndex;
+                            let nextChar = lowerCaseHTML.charAt(endIndex);
+                            while (nextChar === '<' || nextChar === '>' || nextChar === ' ') {
+                                endIndex++;
+                                nextChar = lowerCaseHTML.charAt(endIndex);
+                            }
+
+                            const currWordInHTML = lowerCaseHTML.substring(endIndex, endIndex + searchWords[j].length);
+
+                            if (currWordInHTML === searchWords[j]) {
+                                totalLength += searchWords[j].length;
+                                endIndex = endIndex + searchWords[j].length;
+                            } else {
+                                done = true;
+                                endIndex = originalEndIndex;
+                            }
+                        }
+
+                        if (inputTotalLength == totalLength)
+                            texts[i].innerHTML = texts[i].innerHTML.substring(0, startIndex) + '<span class="highlight">' + texts[i].innerHTML.substring(startIndex, endIndex) + '</span>' + texts[i].innerHTML.substring(endIndex);
+                    }
+                }
+
+                searchInput.value = '';
+            }
+        }
+    </script>
+</body>
+</html>

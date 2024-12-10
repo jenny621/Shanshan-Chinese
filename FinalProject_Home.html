@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <title>Home - Shanshan Chinese</title>
+    <link rel="icon" href="images/tsunami_white-circle-background.svg" /> <!-- color of "--bs-primary-bg-subtle" in dark mode: #031633-->
+
+    <style>
+        html {
+            font-size: calc(16px + 0.390625vw);
+        }
+
+        body {
+            font-family: Georgia, serif;
+        }
+
+        .mainImage {
+            width: 100%;
+            height: auto;
+            padding: 0px;
+        }
+
+        .photoCredit {
+            font-size: .6rem;
+        }
+
+        .contentBody {
+            text-align: justify;
+        }
+
+        .contentBody b {
+            color: #C19138;
+        }
+
+        .icon {
+            color: #0dcaf0;
+        }
+
+        footer, .card {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .lead {
+            font-size: .9rem;
+        }
+
+        .emailLink {
+            text-decoration: underline;
+        }
+
+        /* Large Screens (i.e., desktop) */
+        @media (max-width: 1199.98px) {
+        }
+
+        /* Medium Screens (i.e., tablet) */
+        @media (max-width: 991.98px) {
+        }
+
+        /* Small Screens (i.e., mobile) */
+        @media (max-width: 767.98px) {
+        }
+
+        .highlight {
+            color: black;
+            background-color: yellow;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shanshan Chinese</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="FinalProject_Resources.html">Home</a></li>
+                            <li><a class="dropdown-item" href="#">Beginner</a></li>
+                            <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                            <li><a class="dropdown-item" href="#">Advanced</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FinalProject_VR.html">My VR Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://calendly.com/yw123/one-on-one-tutoring">Tutoring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FinalProject_Bio.html">Bio</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="justify-content-end d-none d-xl-flex" role="search">
+                <input id="searchInput" class="form-control me-2" type="text" placeholder="Search current page" aria-label="Search" />
+                <button class="btn btn-outline-light" type="button" onclick="search()">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!-- Header & Main Image -->
+        <div class="row py-5">
+            <span class="mainTitle display-1 text-center">Welcome to Shanshan Chinese!</span>
+        </div>
+        <div class="row">
+            <img class="mainImage" src="images/sunset-over-taipei-city-modified.jpg" alt="Photo of Sunset over Taipei City" />
+            <p class="text-center py-2 photoCredit">
+                Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@tents_and_tread?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thomas Tucker</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/photos/city-building-during-daytime-au3CYbd7vCU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row py-3 px-lg-5 px-md-4 px-2">
+            <div class="col-sm-12">
+                <h3 class="mb-4 text-center">Who is Shanshan Chinese for?</h3>
+                <div class="contentBody lh-base">
+                    <p>
+                        The primary goals of this website are to <b>help learners of Mandarin Chinese explore fun and effective ways to learn Chinese</b> and to <b>help them find Chinese language teachers and other learners to interact with and stay motivated together</b>. So if you are a learner of Chinese&mdash;whatever proficiency level you are currently at, and whether you are taking structured Chinese classes at a university or simply learning Chinese on your own&mdash;you will find something useful on this website. I hope you enjoy the lifelong journey of learning to communicate in Chinese!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row pt-3 pb-4 px-lg-5 px-md-4 px-2">
+            <div class="col-sm-12">
+                <h3 class="mb-4 text-center">Do we still need to learn foreign languages when AI tranlation systems have been improving quickly?</h3>
+                <div class="contentBody lh-base">
+                    <p>
+                        The past couple of years have seen several large AI-powered translation systems appear in the market. So a natural question to ask is: What role, if any, does foreign-language education play in a world where translation technologies have been advancing at breakneck speed?
+
+                        This is an important question for foreign-language educators to ponder, because it directly affects what content they teach in class, as well as how they teach it.
+
+                        To put it bluntly, if we accept that AI technologies will outpace the learning of words and grammar rules by a Chinese major or an enthusiastic autonomous learner of Chinese, should they simply take advantage of technological advancement and speak comfortably in their mother tongue without ever bothering to learn a foreign language?
+                    </p>
+                    <p>
+                        I think the answer depends on what levels of communication one wants to achieve. If one's goal is to exchange information with people speaking a foreign language on a sporadic basis, then a machine translator should suffice. On the other hand, <b>if one's goal is to share experiences and build long-term relationships with people from different cultures</b>&mdash;that is, people with different ways of living and making sense of the world&mdash;<b>then I believe learning a foreign language is the path that can lead to that goal most effectively and most profoundly</b>.
+                    </p>
+                    <p>
+                        Based on this understanding of why we need to learn a foreign language like Mandarin Chinese, <b>everything on this website focuses on cultivating your ability to communicate in Chinese culture or Taiwanese culture through contextualized learning</b>. That is, no more memorization of isolated words or grammar patterns.
+
+                        Instead, contextual factors like time, place, who you're talking to, who else is present, and so on, are included so you know what you need to do&mdash;including what to say and how to say it&mdash;to achieve your communication goal(s) in a given situation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Secondary Content -->
+        <div class="row text-center px-4 row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <svg class="bi bi-tsunami card-img-top mt-3 icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">External Resources</h6>
+                        <p class="card-text">This page provides brief descriptions of and links to various external resources for learning Mandarin Chinese. Three levels (beginner, intermediate, and advanced) are used to categorize these resources.</p>
+                        <a class="btn btn-outline-info" href="FinalProject_Resources.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <svg class="bi bi-tsunami card-img-top mt-3 icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">My VR Project</h6>
+                        <p class="card-text">My <i>Taiwanese Kitchen</i> VR project is designed to help learners of Chinese acquire the procedural knowledge of cooking scrambled eggs and tomatoes by immersing themselves in an authentic Taiwanese kitchen and interacting with an avatar friend.</p>
+                        <a class="btn btn-outline-info" href="FinalProject_VR.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <svg class="bi bi-tsunami card-img-top mt-3 icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">Tutoring</h6>
+                        <p class="card-text">Do you want one-on-one sessions with Shanshan to improve your Chinese? Schedule them here via Calendly.</p>
+                        <a class="btn btn-outline-info" target="_blank" rel="noopener noreferrer" href="https://calendly.com/yw123/one-on-one-tutoring">Go to Calendly</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <svg class="bi bi-tsunami card-img-top mt-3 icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65m0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65M2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.88 1.88 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5.034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495s-1.19-.77-2.477-.77c-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13" />
+                    </svg>
+                    <div class="card-body">
+                        <h6 class="card-title">Bio</h6>
+                        <p class="card-text">Know more about me on this page!</p>
+                        <a class="btn btn-outline-info mb-1" href="FinalProject_Bio.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row bg-primary-subtle text-center mt-5">
+            <div class="col-sm-12">
+                <footer class="py-3">
+                    <p class="lead">&copy; Shanshan Chinese. All rights reserved.</p>
+                    <p class="lead pb-2">Want to chat about foreign language learning or teaching? Contact me at <span class="emailLink">jenny621880@gmail.com</span></p>
+
+                    <!-- Subsection Navigation Bar -->
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <a class="btn btn-outline-info btn-sm me-2" href="FinalProject_Home.html">Home</a>
+                            <a class="btn btn-outline-info btn-sm me-2" href="FinalProject_Resources.html">Resources</a>
+                            <a class="btn btn-outline-info btn-sm me-2" href="FinalProject_VR.html">My VR Project</a>
+                            <a class="btn btn-outline-info btn-sm me-2" target="_blank" rel="noopener noreferrer" href="https://calendly.com/yw123/one-on-one-tutoring">Tutoring</a>
+                            <a class="btn btn-outline-info btn-sm me-2" href="FinalProject_Bio.html">Bio</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function search() {
+            const spans = document.querySelectorAll('span');
+            const texts = document.querySelectorAll('p, span, a, h1, h2, h3, h4, h5, h6');
+
+            for (let i = 0; i < spans.length; i++) {
+                if (spans[i].classList.contains('highlight'))
+                    spans[i].classList.remove('highlight')
+            }
+
+            let searchInput = document.getElementById('searchInput');
+            let searchInputText = searchInput.value.trim(); // Note that "searchInput.textContent" doesn't work
+
+            if (searchInputText) {
+                searchInputText = searchInputText.toLowerCase();
+
+                const searchWords = searchInputText.split(' ');
+                let inputTotalLength = 0;
+                searchWords.forEach((element) => inputTotalLength += element.length);
+
+                for (let i = 0; i < texts.length; i++) {
+                    if (texts[i].textContent.toLowerCase().includes(searchInputText)) {
+                        const lowerCaseHTML = texts[i].innerHTML.toLowerCase();
+                        const startIndex = lowerCaseHTML.indexOf(searchWords[0]);
+                        let endIndex = startIndex + searchWords[0].length;
+                        let totalLength = searchWords[0].length;
+                        let done = false;
+
+                        for (let j = 1; j < searchWords.length && !done; ++j) {
+                            const originalEndIndex = endIndex;
+                            let nextChar = lowerCaseHTML.charAt(endIndex);
+                            while (nextChar === '<' || nextChar === '>' || nextChar === ' ') {
+                                endIndex++;
+                                nextChar = lowerCaseHTML.charAt(endIndex);
+                            }
+
+                            const currWordInHTML = lowerCaseHTML.substring(endIndex, endIndex + searchWords[j].length);
+
+                            if (currWordInHTML === searchWords[j]) {
+                                totalLength += searchWords[j].length;
+                                endIndex = endIndex + searchWords[j].length;
+                            } else {
+                                done = true;
+                                endIndex = originalEndIndex;
+                            }
+                        }
+
+                        if (inputTotalLength == totalLength)
+                            texts[i].innerHTML = texts[i].innerHTML.substring(0, startIndex) + '<span class="highlight">' + texts[i].innerHTML.substring(startIndex, endIndex) + '</span>' + texts[i].innerHTML.substring(endIndex);
+                    }
+                }
+
+                searchInput.value = '';
+            }
+        }
+    </script>
+</body>
+</html>
