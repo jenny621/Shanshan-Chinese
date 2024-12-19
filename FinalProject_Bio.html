@@ -99,10 +99,10 @@
     </script>
 </head>
 <body>
-    <div class="container-fluid">
 
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle" data-bs-theme="dark">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Shanshan Chinese</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -136,23 +136,25 @@
                 <input id="searchInput" class="form-control me-2" type="text" placeholder="Search current page" aria-label="Search" />
                 <button class="btn btn-outline-light" type="button" onclick="search()">Search</button>
             </form>
-        </nav>
-
-        <!-- Header & Main Image -->
-        <div class="row headerDiv">
-            <span class="mainTitle display-1 text-center">Ying-Shan (Jenny) Wu</span>
         </div>
-        <div class="mainImageDiv">
-            <!--
-            <img class="mainImage" src="images/Ying-Shan (Jenny) Wu_2.jpg" alt="A photo of Ying-Shan (Jenny) Wu at Mammoth Cave National Park" />
-            <p class="text-center py-2 photoDescription">Me at Mammoth Cave National Park</p>
-            -->
-            <figure class="figure">
-                <img class="figure-img rounded mainImage" src="images/Ying-Shan (Jenny) Wu_2.jpg" alt="A photo of Ying-Shan (Jenny) Wu at Mammoth Cave National Park">
-                <figcaption class="figure-caption text-center">Me at Mammoth Cave National Park</figcaption>
-            </figure>
-        </div>
+    </nav>
 
+    <!-- Header & Main Image -->
+    <div class="row headerDiv">
+        <span class="mainTitle display-1 text-center">Ying-Shan (Jenny) Wu</span>
+    </div>
+    <div class="mainImageDiv">
+        <!--
+        <img class="mainImage" src="images/Ying-Shan (Jenny) Wu_2.jpg" alt="A photo of Ying-Shan (Jenny) Wu at Mammoth Cave National Park" />
+        <p class="text-center py-2 photoDescription">Me at Mammoth Cave National Park</p>
+        -->
+        <figure class="figure">
+            <img class="figure-img rounded mainImage" src="images/Ying-Shan (Jenny) Wu_2.jpg" alt="A photo of Ying-Shan (Jenny) Wu at Mammoth Cave National Park">
+            <figcaption class="figure-caption text-center">Me at Mammoth Cave National Park</figcaption>
+        </figure>
+    </div>
+
+    <div class="container-fluid">
         <!-- Main Content: Personal Me -->
         <div class="row pt-3 px-lg-5 px-md-4 px-2 d-flex flex-wrap align-items-center">
             <!-- To align image vertically, use the following classes in your containing div.row: d-flex flex-wrap align-items-center -->
