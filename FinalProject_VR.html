@@ -71,7 +71,7 @@
 
         /* Large Screens (i.e., desktop) */
         @media (max-width: 1199.98px) {
-            .learningCycleFigure {
+            .learningCycleFigure, .demoVideo {
                 width: 50%;
             }
         }
@@ -81,12 +81,20 @@
             .learningCycleFigure {
                 width: 60%;
             }
+
+            .demoVideo {
+                width: 70%;
+            }
         }
 
         /* Small Screens (i.e., mobile) */
         @media (max-width: 767.98px) {
             .learningCycleFigure {
                 width: 70%;
+            }
+
+            .demoVideo {
+                width: 80%;
             }
         }
 
@@ -197,7 +205,7 @@
             <div class="col-sm-12">
                 <h3 class="mb-4 text-center">Demo Video</h3>
                 <div class="text-center">
-                    <video controls>
+                    <video class="demoVideo" controls>
                         <source src="images/VR-page/DemoVideo.mp4" type="video/mp4" />
                         Your browser does not support the video.
                     </video>
